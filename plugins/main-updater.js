@@ -36,7 +36,7 @@ cmd({
       return reply("```_*✅ YOUR RAZA-INC-MD BOT IS ALREADY UP-TO-DATE!*_```\n");  
     }  
 
-    await reply("```_*RAZA-INC-MD BOT UPDATING...🚀*_```\n");  
+    await reply("```RAZA-INC-MD BOT UPDATING...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
